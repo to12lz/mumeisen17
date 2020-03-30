@@ -11,10 +11,40 @@ body {
 }
 
 li {
-  list-style: none;
+  /*list-style: none;*/
 }
 
 header{
   background-color: #26d0c9;
   height:90px;
+}
+
+.top-wrapper{
+  padding: 180px 0 0 0;
+  background-image: url(https://raw.githubusercontent.com/to12lz/mumeisen17/master/banner.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.container{
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 15px 50px 15px;
+  margin: 0 auto;
+}
+
+.overview .txt{
+  text-align: center;
+}
+
+.title{
+  font-size:32px;
+  text-align:left;
+  border-bottom:2px solid #dee7ec;
+  margin-bottom:10px;
+}
+
+ul{
+  margin: 30px;
 }
