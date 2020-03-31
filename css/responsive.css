@@ -1,0 +1,10 @@
+@media all and (max-width: 670px) { 
+  .member{
+    margin:0 10% 50px 10%;
+    width: 80%;
+  }
+
+  .schedule{
+    width:100%;
+  }
+}
