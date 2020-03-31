@@ -103,7 +103,7 @@ header{
 .title:after {
 	content:"";
 	height:2px;
-	width:100%;
+	width:99%;
 	display: block;
 		background:-webkit-gradient(linear, left top, right bottom, from(#151972), to(#7ff8de));
 		background:-moz-linear-gradient(left, #151972, #7ff8de);
