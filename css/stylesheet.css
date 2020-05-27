@@ -73,12 +73,24 @@ header{
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
-  margin:0 10px 20px 10px;
-}
-.btn-wrapper{
-  text-align:center;
+  margin:0 10px 5px 10px;
 }
 
+.package{
+  background-color: white;
+  color:#24c1dd;
+  border: 2px #24c1dd solid;
+}
+
+.btn-wrapper{
+  text-align:center;
+  width:100%;
+  padding: 10px 0 80px 0;
+}
+.btnandsup{
+  float:left;
+  width:33%;
+}
 
 .container{
   max-width: 1000px;
@@ -163,3 +175,13 @@ footer{
   background-color:#fff;
 }
 */
+
+
+.sup{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+a.disabled{
+  pointer-events: none;
+}
