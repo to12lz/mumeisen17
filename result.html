@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.1/js/jquery.tablesorter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.1/js/extras/jquery.metadata.min.js"></script>
+    <script type="text/javascript" src="tablesorter.js"></script>
   </head>
   <body>
     <header>
@@ -18,11 +22,1324 @@
       </div>
     </header>
 
-    <div class="participants">
+    <div class="result">
       <div class="container">
         <div class="title">結果発表</div>
-        <div class="txt">
-          準備中です。
+        <table class="tablesorter" id="myTable">
+        <thead>
+          <tr>
+            <th width=38px>順位</th>
+            <th width=120px>ジャンル</th>
+            <th width=10px>アーティスト名</th>
+            <th width=160px>タイトル</th>
+            <th width=40px>インプレ数</th>
+            <th width=40px>得点</th>
+            <th width=50px>平均点</th>
+            <th width=10px>I know</th>
+            <th width=40px>I know率</th>
+            <th width=40px>平均点順位</th>
+          </tr>
+        </thead>
+        </tbody>
+          <tr>
+            <td>1</td>
+            <td>Bass &amp; Darkpsy</td>
+            <td>Futami(movie:KeiuO)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=40&event=131">Gimme All The Cocaine</a></td>
+            <td>161</td>
+            <td>1538</td>
+            <td>9.55</td>
+            <td>9</td>
+            <td>5.59%</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Thrill Action</td>
+            <td>K4Y5(movie:FJA映像プロダクション)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=68&event=131">Thrill Trigger</a></td>
+            <td>156</td>
+            <td>1473</td>
+            <td>9.44</td>
+            <td>85</td>
+            <td>54.49%</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Hard Trance</td>
+            <td>paraneumann</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=20&event=131">Weaponhuman</a></td>
+            <td>117</td>
+            <td>1116</td>
+            <td>9.53</td>
+            <td>1</td>
+            <td>0.85%</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Hi-TECH FULL ON</td>
+            <td>utzbo</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=131">Secret Order</a></td>
+            <td>116</td>
+            <td>1092</td>
+            <td>9.41</td>
+            <td>4</td>
+            <td>3.45%</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>GLITCH HOP</td>
+            <td>satie</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=8&event=131">Vulgar</a></td>
+            <td>114</td>
+            <td>1048</td>
+            <td>9.19</td>
+            <td>27</td>
+            <td>23.68%</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>drowse</td>
+            <td>Mr.Faine(movie:romusann)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=101&event=131">夢と現</a></td>
+            <td>109</td>
+            <td>1043</td>
+            <td>9.56</td>
+            <td>16</td>
+            <td>14.68%</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Neurofunk/IDM</td>
+            <td>NoE(movie:koboshinn)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=46&event=131">間隙を縫う</a></td>
+            <td>111</td>
+            <td>1037</td>
+            <td>9.34</td>
+            <td>4</td>
+            <td>3.60%</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>CHIPTUNE RAG</td>
+            <td>kas_0120(movie:かんてん)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=84&event=131">RAKUGAKI NOTE</a></td>
+            <td>111</td>
+            <td>1035</td>
+            <td>9.32</td>
+            <td>20</td>
+            <td>18.02%</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>HAPPY☆JIG</td>
+            <td>定空間</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=51&event=131">青空の旅、笛と共に</a></td>
+            <td>110</td>
+            <td>1032</td>
+            <td>9.38</td>
+            <td>22</td>
+            <td>20.00%</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Psystyle</td>
+            <td>N-Driver</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=109&event=131">ヤバヤバ</a></td>
+            <td>108</td>
+            <td>954</td>
+            <td>8.83</td>
+            <td>25</td>
+            <td>23.15%</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Funkot</td>
+            <td>hayato87b</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=37&event=131">Funky Anthem "F"</a></td>
+            <td>104</td>
+            <td>923</td>
+            <td>8.87</td>
+            <td>40</td>
+            <td>38.46%</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>hardPUMP</td>
+            <td>hard</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=79&event=131">ARC DiSCHARGeR</a></td>
+            <td>101</td>
+            <td>918</td>
+            <td>9.08</td>
+            <td>2</td>
+            <td>1.98%</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Life is Hardcore</td>
+            <td>でぱみぃ</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=42&event=131">なんかたのしいことないかな</a></td>
+            <td>103</td>
+            <td>912</td>
+            <td>8.85</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>WIND ORCHESTRA</td>
+            <td>mots</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=9&event=131">Trooping the Colour</a></td>
+            <td>104</td>
+            <td>901</td>
+            <td>8.66</td>
+            <td>27</td>
+            <td>25.96%</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>ELECTRO ANTHEM</td>
+            <td>吟世かいな</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=15&event=131">synodion</a></td>
+            <td>106</td>
+            <td>891</td>
+            <td>8.4</td>
+            <td>26</td>
+            <td>24.53%</td>
+            <td>34</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>Techno</td>
+            <td>crossworld</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=24&event=131">CrossSectionOfMind</a></td>
+            <td>96</td>
+            <td>862</td>
+            <td>8.97</td>
+            <td>19</td>
+            <td>19.79%</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>Oriental Hardcore</td>
+            <td>MoVIIkA(movie:Vimii)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=105&event=131">Hayate</a></td>
+            <td>96</td>
+            <td>859</td>
+            <td>8.94</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>Ambivalence</td>
+            <td>rN</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=39&event=131">opia</a></td>
+            <td>97</td>
+            <td>857</td>
+            <td>8.83</td>
+            <td>2</td>
+            <td>2.06%</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>day / dream</td>
+            <td>Shinji Hirano</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=3&event=131">OR</a></td>
+            <td>105</td>
+            <td>843</td>
+            <td>8.02</td>
+            <td>11</td>
+            <td>10.48%</td>
+            <td>44</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>RAWSTYLE</td>
+            <td>NoisiestLunatic(mov:FanfRS)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=131">Phoenix (ft.Tonishkov)</a></td>
+            <td>103</td>
+            <td>838</td>
+            <td>8.13</td>
+            <td>4</td>
+            <td>3.88%</td>
+            <td>39</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>PIANO CUT TRANCE</td>
+            <td>/指紋(movie:もがみ)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=99&event=131">鏡花水月の宵</a></td>
+            <td>93</td>
+            <td>832</td>
+            <td>8.94</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>INSTRUMENTAL</td>
+            <td>りょくちゃくん</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=14&event=131">fwa fwa</a></td>
+            <td>101</td>
+            <td>829</td>
+            <td>8.2</td>
+            <td>33</td>
+            <td>32.67%</td>
+            <td>38</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>J-CORE</td>
+            <td>CYLTIE.</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=58&event=131">Dispire///Hope</a></td>
+            <td>94</td>
+            <td>813</td>
+            <td>8.64</td>
+            <td>42</td>
+            <td>44.68%</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>Ani Rock</td>
+            <td>287 a.k.a. EXAM.S feat.東北きりたん</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=21&event=131">Opposit_Position</a></td>
+            <td>90</td>
+            <td>812</td>
+            <td>9.02</td>
+            <td>20</td>
+            <td>22.22%</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>J-DancePop</td>
+            <td>38k</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=89&event=131">散恋華 -BMS Edit-</a></td>
+            <td>94</td>
+            <td>805</td>
+            <td>8.56</td>
+            <td>31</td>
+            <td>32.98%</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>PROTEAN STEP</td>
+            <td>Jeipouju</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=13&event=131">Shadowland Cityscape</a></td>
+            <td>88</td>
+            <td>805</td>
+            <td>9.14</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td>future bounce</td>
+            <td>tami(movie:tami)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=107&event=131">devote</a></td>
+            <td>90</td>
+            <td>804</td>
+            <td>8.93</td>
+            <td>18</td>
+            <td>20.00%</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>AFRO TECHNO</td>
+            <td>潮音きつね(movie:MANAKA)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=97&event=131">MIMAKARU</a></td>
+            <td>92</td>
+            <td>802</td>
+            <td>8.71</td>
+            <td>25</td>
+            <td>27.17%</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>TRANCE</td>
+            <td>ほろろ(movie:TAIGA YANAO,Patroller Yamazaki)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=81&event=131">Carnelian</a></td>
+            <td>93</td>
+            <td>789</td>
+            <td>8.48</td>
+            <td>22</td>
+            <td>23.66%</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>Glitch Hop</td>
+            <td>dn3r / AIきりたん / だい(mov:bori)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=112&event=131">YOU</a></td>
+            <td>92</td>
+            <td>786</td>
+            <td>8.54</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>HYPER TECHNO</td>
+            <td>Edvard.S(movie:tun)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=45&event=131">SHINE</a></td>
+            <td>93</td>
+            <td>782</td>
+            <td>8.4</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>33</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>Speed-Tech</td>
+            <td>Min0rity(movie:Sugar)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=73&event=131">KHAYAH</a></td>
+            <td>89</td>
+            <td>779</td>
+            <td>8.75</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td>HARD TRANCE</td>
+            <td>NenotaNi</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=82&event=131">FUNKY PARTY!!</a></td>
+            <td>96</td>
+            <td>779</td>
+            <td>8.11</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>41</td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td>gothic electro</td>
+            <td>相生あおは(movie:二兎)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=60&event=131">Shiftenery</a></td>
+            <td>90</td>
+            <td>775</td>
+            <td>8.61</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td>nostalgic trance core</td>
+            <td>Namiel(movie:グーラン)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=72&event=131">re:Crystallization</a></td>
+            <td>98</td>
+            <td>774</td>
+            <td>7.89</td>
+            <td>20</td>
+            <td>20.41%</td>
+            <td>49</td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td>Piano Step</td>
+            <td>Ente</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=36&event=131">Mundus_Ex_Machina</a></td>
+            <td>91</td>
+            <td>766</td>
+            <td>8.41</td>
+            <td>10</td>
+            <td>10.99%</td>
+            <td>32</td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td>Chiptune</td>
+            <td>晴空ヒナタ</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=53&event=131">ちっぴんばとる！</a></td>
+            <td>89</td>
+            <td>761</td>
+            <td>8.55</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td>38</td>
+            <td>MENTAL BREAKDOWN</td>
+            <td>Nirotiy(movie:megakite)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=86&event=131">Cardiac Neurosis</a></td>
+            <td>88</td>
+            <td>750</td>
+            <td>8.52</td>
+            <td>13</td>
+            <td>14.77%</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td>39</td>
+            <td>OUTBREAK</td>
+            <td>HAROLD</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=44&event=131">VIRAL INFECTION</a></td>
+            <td>92</td>
+            <td>747</td>
+            <td>8.11</td>
+            <td>33</td>
+            <td>35.87%</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td>oriental eurobeat</td>
+            <td>にょろも</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=56&event=131">指先忍者 the ultimate keystroke</a></td>
+            <td>88</td>
+            <td>744</td>
+            <td>8.45</td>
+            <td>34</td>
+            <td>38.64%</td>
+            <td>31</td>
+          </tr>
+          <tr>
+            <td>41</td>
+            <td>Trance</td>
+            <td>Block</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=91&event=131">Water rain</a></td>
+            <td>89</td>
+            <td>741</td>
+            <td>8.32</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>37</td>
+          </tr>
+          <tr>
+            <td>42</td>
+            <td>Maiden House</td>
+            <td>ポロロッカ</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=26&event=131">蒼く爽昧な夢のようで</a></td>
+            <td>91</td>
+            <td>733</td>
+            <td>8.05</td>
+            <td>20</td>
+            <td>21.98%</td>
+            <td>42</td>
+          </tr>
+          <tr>
+            <td>43</td>
+            <td>HAPPY TEATIME</td>
+            <td>りょくちゃ</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=61&event=131">litea</a></td>
+            <td>86</td>
+            <td>722</td>
+            <td>8.39</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>36</td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td>Progressive Rock</td>
+            <td>CCP</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=76&event=131">TURBO</a></td>
+            <td>88</td>
+            <td>708</td>
+            <td>8.04</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>43</td>
+          </tr>
+          <tr>
+            <td>45</td>
+            <td>POP BREAKBEATS</td>
+            <td>F.Wynnd</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=131">Starline Express</a></td>
+            <td>89</td>
+            <td>703</td>
+            <td>7.89</td>
+            <td>20</td>
+            <td>22.47%</td>
+            <td>48</td>
+          </tr>
+          <tr>
+            <td>46</td>
+            <td>Alternative Bass Music</td>
+            <td>mkpn</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=103&event=131">from Hauser'sd bain</a></td>
+            <td>83</td>
+            <td>697</td>
+            <td>8.39</td>
+            <td>7</td>
+            <td>8.43%</td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <td>47</td>
+            <td>1st core</td>
+            <td>Exsy</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=110&event=131">1stCode:</a></td>
+            <td>87</td>
+            <td>697</td>
+            <td>8.01</td>
+            <td>22</td>
+            <td>25.29%</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td>48</td>
+            <td>HAPPY HARDCORE</td>
+            <td>yamada.(movie:[illust]あかつきひな)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=22&event=131">Awakening Girl</a></td>
+            <td>91</td>
+            <td>691</td>
+            <td>7.59</td>
+            <td>11</td>
+            <td>12.09%</td>
+            <td>55</td>
+          </tr>
+          <tr>
+            <td>49</td>
+            <td>Progressive Trance</td>
+            <td>白羽Project(mov:rokopon)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=67&event=131">γ-Arietis</a></td>
+            <td>87</td>
+            <td>685</td>
+            <td>7.87</td>
+            <td>14</td>
+            <td>16.09%</td>
+            <td>51</td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td>NOSTALGIA</td>
+            <td>432pro</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=98&event=131">turn it back</a></td>
+            <td>89</td>
+            <td>671</td>
+            <td>7.53</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>56</td>
+          </tr>
+          <tr>
+            <td>51</td>
+            <td>Ballad</td>
+            <td>Greetea(movie:sake)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=35&event=131">Flömade</a></td>
+            <td>83</td>
+            <td>663</td>
+            <td>7.98</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>46</td>
+          </tr>
+          <tr>
+            <td>52</td>
+            <td>Hardcore mix/Dubstep</td>
+            <td>Zombomb(movie:MOYAYON)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=74&event=131">Leave Me</a></td>
+            <td>83</td>
+            <td>659</td>
+            <td>7.93</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>47</td>
+          </tr>
+          <tr>
+            <td>53</td>
+            <td>DIGITAL J-POP</td>
+            <td>SC.Kanata</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=43&event=131">キボウノヒカリ (SC.Kanata Redecorate)</a></td>
+            <td>86</td>
+            <td>657</td>
+            <td>7.63</td>
+            <td>41</td>
+            <td>47.67%</td>
+            <td>54</td>
+          </tr>
+          <tr>
+            <td>54</td>
+            <td>PSY // CORE</td>
+            <td>Shinwoir</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=78&event=131">Out of control</a></td>
+            <td>84</td>
+            <td>652</td>
+            <td>7.76</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>52</td>
+          </tr>
+          <tr>
+            <td>55</td>
+            <td>Dance music</td>
+            <td>Zymei</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=62&event=131">Hidden Balls</a></td>
+            <td>84</td>
+            <td>650</td>
+            <td>7.73</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>53</td>
+          </tr>
+          <tr>
+            <td>56</td>
+            <td>Moombahton</td>
+            <td>Forged Reigns</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=59&event=131">goods factory.</a></td>
+            <td>86</td>
+            <td>648</td>
+            <td>7.53</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>57</td>
+          </tr>
+          <tr>
+            <td>57</td>
+            <td>Acoustic Electro</td>
+            <td>yoho</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=94&event=131">マキナ・ユーカリプタス</a></td>
+            <td>82</td>
+            <td>646</td>
+            <td>7.87</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>58</td>
+            <td>SUMMER TECHNO POP</td>
+            <td>YOURI</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=16&event=131">Morning Beach</a></td>
+            <td>90</td>
+            <td>610</td>
+            <td>6.77</td>
+            <td>9</td>
+            <td>10.00%</td>
+            <td>65</td>
+          </tr>
+          <tr>
+            <td>59</td>
+            <td>speedcore</td>
+            <td>dandeless</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=75&event=131">almost!</a></td>
+            <td>83</td>
+            <td>609</td>
+            <td>7.33</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>58</td>
+          </tr>
+          <tr>
+            <td>60</td>
+            <td>TRANCE CORE</td>
+            <td>JUNOU(movie:イラスト:ねむねこ)</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=88&event=131">Siphon</a></td>
+            <td>84</td>
+            <td>608</td>
+            <td>7.23</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>59</td>
+          </tr>
+          <tr>
+            <td>61</td>
+            <td>HARDCORE</td>
+            <td>last</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=108&event=131">arcobaleno</a></td>
+            <td>89</td>
+            <td>606</td>
+            <td>6.8</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>64</td>
+          </tr>
+          <tr>
+            <td>62</td>
+            <td>SHIAWASE</td>
+            <td>ですわ</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=38&event=131">OhDa</a></td>
+            <td>85</td>
+            <td>603</td>
+            <td>7.09</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>61</td>
+          </tr>
+          <tr>
+            <td>63</td>
+            <td>Hardcore</td>
+            <td>KOREROU</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=95&event=131">Rising Zone</a></td>
+            <td>85</td>
+            <td>600</td>
+            <td>7.05</td>
+            <td>10</td>
+            <td>11.76%</td>
+            <td>62</td>
+          </tr>
+          <tr>
+            <td>64</td>
+            <td>Hardcore</td>
+            <td>Trantech</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=69&event=131">Aleph(BMS Edit.)</a></td>
+            <td>83</td>
+            <td>595</td>
+            <td>7.16</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td>65</td>
+            <td>Drum'n'Bass</td>
+            <td>machi</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=50&event=131">PourDown</a></td>
+            <td>82</td>
+            <td>570</td>
+            <td>6.95</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>63</td>
+          </tr>
+          <tr>
+            <td>66</td>
+            <td>uplifting trance</td>
+            <td>Eltsopa</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=57&event=131">Nebulosus</a></td>
+            <td>82</td>
+            <td>544</td>
+            <td>6.63</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>66</td>
+          </tr>
+          <tr>
+            <td>67</td>
+            <td>HAPPY HARDCORE</td>
+            <td>P0cket</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=85&event=131">R3:JUV3NAT10N</a></td>
+            <td>86</td>
+            <td>540</td>
+            <td>6.27</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>68</td>
+          </tr>
+          <tr>
+            <td>68</td>
+            <td>TRANCE</td>
+            <td>P.CHER</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=77&event=131">autumn wind</a></td>
+            <td>83</td>
+            <td>538</td>
+            <td>6.48</td>
+            <td>2</td>
+            <td>2.41%</td>
+            <td>67</td>
+          </tr>
+          <tr>
+            <td>69</td>
+            <td>Fantasy Trip</td>
+            <td>Khibine</td>
+            <td><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=131">Only one dream</a></td>
+            <td>91</td>
+            <td>512</td>
+            <td>5.62</td>
+            <td>0</td>
+            <td>0.00%</td>
+            <td>69</td>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="interviews">
+      <div class="container">
+        <div class="title">入賞者インタビュー</div>
+          <div class="interview">
+            <h1 class="inttitle">Gimme All The Cocaine</h1>
+            <h2 class="intartist">Futami(movie:KeiuO)</h2>
+            <div class="question">Q. 優勝おめでとうございます！改めてこの順位に対するお気持ちをお聞かせください。</div>
+
+            <div class="answer">
+            最初は上位半分に入ることが目標だったので、優勝が現実味を帯び始めた時にはプレッシャーでメンタルがぶっ壊れましたが、
+            優勝することができて驚きと喜びでいっぱいです。<br>
+            とはいえ今回の無名戦のイロモノ枠という自覚があっただけに、正直まだ喜びよりも驚きの方が大きいですが…。<br>
+            </div>
+
+            <div class="question">Q. 今回作成されたBMSについて、力を入れた点やアピールポイント等があれば是非とも紹介してください。</div>
+
+            <div class="answer">
+              自分が好き/得意なジャンルがDarkpsyということで、明らかに音ゲーに不向きな音楽で攻める以上どのように音ゲーナイズをしたノリ・音にするかというところに一番力を入れました。<br>
+              結局音に関しては、ガチガチの音でひたすらストイックに攻めることになりましたが…。（実はこれは去年の準優勝のDrumatic Sequencerさんの戦況を見ての判断です。）<br>
+              ノリに関しては、前半と後半でジャンルを変えて展開を作るという（半ば無理矢理でもある）手段や、どのようにして海外の本場の高速ダークサイケのようなノリやストイックさを残しつつ音ゲーに馴染みやすいノリに仕上げるか、というところに力を入れました。
+              後者は試行錯誤の連続で、非常に難しかったです。<br>
+              <br>
+              それと、アピールポイントはあのBGAで、友人のKeiuO氏に制作を頼んだのですが、これがかなり面白い出来になってます。映像に関する自分からのオーダーは「BMSにありがちな映像はやめろ」「前半は陽気そうな人を踊らせろ」の2点だけで、彼は初めての映像制作だったのでどういう出来になるか不安でしたが、あの狂った映像が飛んできたのは嬉しい誤算でした。是非一度ご覧ください！<br>
+            </div>
+
+            <div class="question">Q. 今回の作品を制作する際にこんなところを意識した！苦労した……等制作逸話をお聞かせください。</div>
+
+            <div class="answer">
+              第一に初めてのBMS制作であることと、その上でそもそも自分が根本的に致命的に最悪レベルのネット・機械音痴ということで、BMS化を意識した作曲から音切り、配置、譜面作成、果てにはそれらのためのソフトの導入、しまいには作品登録のやり方、もうありとあらゆる全てが苦労の連続でした。苦労しすぎてここで語ると余白が足りないので詳しくは割愛します。<br>
+              <br>
+              意識した点に関しては、この作品で高速ダークサイケを初めて聴く人も多いだろうし、この作品が本物の高速ダークサイケへの良い架け橋になるといいなあ…とか思いながら作りました。<br>
+            </div>
+
+            <div class="question">Q. 今回の無名戦でお気に入りのBMSを教えてください。</div>
+
+            <div class="answer">
+              本当に沢山あるのですが、強いて何個かピックアップするならば、<br>
+              定空間 - 青空の旅、笛と共に<br>
+              kas_0120 - RAKUGAKI NOTE<br>
+              潮音きつね - MIMAKARU<br>
+              tami - devote<br>
+              です。最高！
+            </div>
+
+            <div class="question">Q. 今後の目標や抱負などをお聞かせください。</div>
+
+            <div class="answer">
+              結局色んな音楽を聴いても帰ってくるのはサイケ系なので、このままサイケに魂注いでやるぜ！という気持ちです。
+              これからものんびりとしぶとく海外の本場の（特に）ダークサイケの音が出せるように精進していきたいです。<br>
+              <br>
+              BMS制作に関しては、勿論続けたい気持ちはあるのですが、
+              現状は自分のメンタルの弱さ的に大会等に出るのは厳しそうなので、
+              あまり他者から得点という形で評価されない場だったり趣味という形で細々と楽しくBMSを作り続けられたらいいなあ…と思っております。
+              いつかメンタルも強くなってもっと実力がついたら大きな大会とか出てみたいです。<br>
+            </div>
+
+            <div class="question">Q. コメントや告知などご自由にお書きください。</div>
+
+            <div class="answer">
+              まずはスペシャルサンクスです<br>
+              KeiuO / BGA制作に関して<br>
+              リアンさん / 一部譜面制作、BMS制作における全面的なサポートに関して<br>
+              T（仮名） / BMS制作で忙しい時期の大学のレポート全部丸パクリさせてくれたことに関して<br>
+              <br>
+              それと宣伝という程でもないのですが、自分は絵もたまに描くので、興味のある方は是非ツイッターやpixivをご覧下さい。
+            </div>
+            
+          </div>
+          <div class="interview">
+            <h1 class="inttitle">Thrill Trigger</h1>
+            <h2 class="intartist">K4Y5(movie:FJA映像プロダクション)</h2>
+            <div class="question">Q. 入賞おめでとうございます！改めてこの順位に対するお気持ちをお聞かせください。</div>
+
+            <div class="answer">
+              ありがとうございます！優勝を狙っていただけに非常に悔しいですが、最後まで1位と接戦の末に掴んだ準優勝なので、非常に光栄です。
+            </div>
+
+            <div class="question">Q. 今回作成されたBMSについて、力を入れた点やアピールポイント等があれば是非とも紹介してください。</div>
+
+            <div class="answer">
+              トリル
+            </div>
+
+            <div class="question">Q. 今回の作品を制作する際にこんなところを意識した！苦労した……等制作逸話をお聞かせください。</div>
+
+            <div class="answer">
+              普段あまりしないので、かなり長くなりますが少し自分語りをさせていただこうと思います。<br>
+              <br>
+              2年前の2018年、無名戦15が終わった後、友人のkooridoriさんの3位入賞が決まった時に、氏より熱い激励の言葉を貰いました。それまでなんとなくで作曲をしていた僕でしたが、長い付き合いの友人であり、僕のDTMの師匠とも言える氏の言葉は、僕をDTM、そしてBMSに本気で向き合わせるのに十分すぎるものでした。
+              諸事情で、無名戦16には参加できないことが分かっていたので、2年後の無名戦17に向けての準備が始まりました。ここから2年間のロングランの始まりです。<br>
+              まずは今までなんとなくやっていたDTMの本気度を上げました。メインの作風は全く決まりませんでしたが、順調にスキルアップしていったと思います。<br>
+              2018年の冬に、友人達の勧めで「BMSをいっぱい作る2019」というイベントに参加しました。初めてのBMS制作にあくせくしながらも、勧めてくれた友人のうちの1人である69 de 74さんの助言もあり、なんとか完成することが出来ました。氏の助言がなければ、当時の作品はもちろん、恐らく今回の僕の無名戦の作品も無かったと思います。氏には本当に感謝しております。<br>
+              また、ここでイベントを共にした友人、crossworldさんとは、無名戦対抗戦で合作したり、無名戦17で対決したり、BOFXVIでkas_0120さんと共にレーベルでチームを組んだりと、これ以降非常に深い関係になっていきます。無名戦対抗戦ではかなりお世話になり、譜面の配置のアイデアも氏の担当した難易度からかなり勉強させていただきました。<br>
+              ここで昨年の無名戦、無名戦16が始まります。先ほど無16には参加できないと書きましたが、2018年末に開催されたBGA PARTYで注目していたtolzさんがTwitterにて譜面作家を募集していたため、サポートとして参加しました。<br>
+              この頃から徐々に、なぜか僕の悪評（？）が広まり、Twitterでは「<a href="https://twitter.com/search?q=%23Iknow9%E5%89%B2%E7%9B%AE%E6%8C%87%E3%81%9D%E3%81%86%E3%81%9CK4Y5">#Iknow9割目指そうぜK4Y5</a>」なんてタグができてしまい、あまつさえ無名戦16の総評でtolzさんに弄られるようになってしまいました。なんで？<br>
+              まあたくさんのつながりができたということで良しとするか！<br>
+              無名戦16を皮切りに、譜面作成能力の向上を図りました。上述した無名戦16のtolzさんの作品や、空読無 白眼さん主催の昨年のゆるゆるBMSパッケージにて一部のobjを担当させてもらったり、BMSをプレイする際に、参考になりそうな配置を意識して確かめてみたりしました。今回の作品で活かされてるかって？やめとこかこの話<br>
+              無名戦16が終わった後から本格的な無名戦17用の楽曲制作を始めました。それまでは単純なDTMスキルの向上だったのですが、ここからは作るジャンルをジャズに決め、それを生かすDTMでした。<br>
+              ここでやっとThrill Triggerの話になるんですが、かなり難産でした…普段の楽曲制作では癖でコードに4和音を使いがちだったのですが、ジャズ風となるとそこから大体もう一つ9thとか11thとかいうのを加えるらしいじゃないですか。なんじゃそらと、んで加えてみたらオシャレになったので採用しました。開幕のデーッデーッデーーデッデッデのところはトップの音から決めていき、それをパートを分けてコードにしました。<br>
+              Aメロは割とすぐできました。メロディラインだけでなく、メロティのリズムもキャッチーになるように考えました。ただインプレで音価について指摘されたので、そのあたりはまだまだ改善の余地がありそうです。<br>
+              Bメロは飛ばしてサビなんですが、普段はサビから楽曲を作ることが多いので、そうでなかった今回は、良いサビができるかどうかは博打でした。結果的に自分で超満足できるレベルのサビができたので、この賭けには勝ったと言えるでしょう。<br>
+              アウトロはイントロからほぼ引用しました。イントロとかAメロとかがアウトロに来るのめっちゃアツいしどうしてもやりたかったのでやりました。欲望に忠実。<br>
+              BGAなのですが、予定よりもかなり遅い段階で映像作家のFJA映像プロダクションさんに頼んだのですが、快く引き受けてくださり、驚異のスピードで素晴らしい映像を制作していただけました。FJA映像プロダクションさんのご協力がなければ、こんなに高い結果を残すことは不可能だったと思います。この場を借りてお礼申し上げます。本当にありがとうございました。<br>
+              譜面なのですが、まあ曲の時点でわかる通り、とにかく僕の好きなトリルを置きたいと思い作曲していたので、まあそのままトリルを置きました。たくさん置きました。欲望に忠実。<br>
+              EX1～3なのですが、差分名の構想は2年前からありました。しいて言えば分かりにくかったので、何人の方にはYPERとANOTERはただの誤字だと思われてたみたいでしたが、どうしてもやりたかったので入れました。欲望に忠実。<br>
+              これに関してはあらかたreadmeに書いてあるのですが、ここで改めて解説します。YPER, ANOTER→HYPER, ANOTHERから「H」が抜けてる→ThrillからHを抜いたらTrill　です。NORMALにはHが含まれていないので特に変化がありません。譜面もそれなりにトリルが控えめでした。その分YPERとANOTERは暴れ倒しました。これがやりたかった（YPERとANOTERはジャンルがTrill Actionになってます）。欲望に忠実。<br>
+              ただインプレで指摘していただいた通り、B,N,Hのトリル度が低かったのが次からの改善点だと思いました。次回以降はBeginner、Normal、Hyper、Another、Insaneの全てに満遍なくトリルを配置しようと思います。もっと欲望に忠実。<br>
+              <br>
+              長くなりましたが、これにて制作逸話終了です。<br>
+            </div>
+
+            <div class="question">Q. 今回の無名戦でお気に入りのBMSを教えてください。</div>
+
+            <div class="answer">
+              正直誇張表現抜きでどれも印象に残っているのですが、その中でも特に印象深い作品を登録順に書いていきます（敬称略）。<br>
+              <br>
+              Shinji Hirano - OR<br>
+              世界観がすごい…解説記事を見ましたが、僕の見えているところよりも深く作られており、感動しました。<br>
+              satie - Vulgar<br>
+              オシャレなGLITCH HOPだ…各パートそれぞれが違ったテイストをみせていて、とても楽しめました。<br>
+              mots - Trooping the Colour<br>
+              とても壮大でただただ圧倒されました…ちゃんと英表記の「Colour」になっているのが個人的に好きです。<br>
+              38k - 散恋華 -BMS Edit-<br>
+              いやほんとこういうレトロな雰囲気漂う作品が好きです…しかも和風だって？悪くはねえなあ──<br>
+              りょくちゃくん - fwa fwa<br>
+              マジでこういう優しい雰囲気の曲が好きです…譜面もピッタリ曲に合っていてGood。<br>
+              吟世かいな - synodion<br>
+              作曲が上手い！柔らかい浮遊感漂う曲調と捌きごごちの良い譜面がマッチしておりとても良かったです。<br>
+              YOURI - Morning Beach<br>
+              楽曲に関してはこれから音やスキルを磨いていくと超絶レベルアップすると思いますが、譜面がとても良かったです。個人的に今回のイベントで一番譜面を作るのが上手い気がする。<br>
+              paraneumann - Weaponhuman<br>
+              いや音！音良すぎ！アッツいHard Tranceでとても好きです。しかも映像も自作だって？悪くはねえなあ──<br>
+              287 a.k.a. EXAM.S feat.東北きりたん - Opposit_Position<br>
+              力強いAni Rock大好きなのでメロメロになりました。譜面も高速物量系でとても楽しめました。マジで楽しい。<br>
+              crossworld - CrossSectionOfMind<br>
+              よ　よう相棒…硬派なテクノにキャッチーなメロディ、楽しい譜面でそりゃ好きになっちゃうわ。<br>
+              utzbo - Secret Order<br>
+              オシャレでテクニカルなジャズ大好きマンなので、楽曲の時点でかなり刺さりました。加えて譜面が良すぎる。譜面でまた刺さりました。チ～ン。<br>
+              ポロロッカ - 蒼く爽昧な夢のようで<br>
+              マジで低音まわりをしっかりしたら優勝なんじゃないかと思いました。Piano ver.があるのも良いですね～良いですよ（良さを噛みしめている）。<br>
+              Greetea(mov:sake) - Flömade<br>
+              心の芯まで癒されるぜ～優しい雰囲気が刺さりました。音ゲーっぽくはないのですが、そういうのもアリだと思いました。<br>
+              Ente - Mundus_Ex_Machina<br>
+              Hi, my name is 独特で不思議な雰囲気が好きboy. I love your BMS. I want you to これからもBMSを作ってほしい. I really look forward to your 次回作.<br>
+              hayato87b - Funky Anthem "F"<br>
+              Hallo, ich heiße 実はFunkotにとっても興味あるmann. Ich spiele gern dein BMS und Musik.ドイツ語はまだよく理解していないので以下日本語ですが、Funkotって良いなあ～と再確認した作品でした。声ネタがリズム良く聴いていて気持ちいい…譜面も曲に合って楽しすぎる。<br>
+              ですわ - OhDa<br>
+              疾走感が気持ちいいですね。譜面も結構やんちゃしてて好きです。難易度別BGI良いですね…好きですよそういうの。<br>
+              Futami(mov:KeiuO) - Gimme All The Cocaine<br>
+              文句なしの優勝。Dope。映像との親和性がすごい。優勝。今だから言えることですが、告知のタイミングが重ならなくて本当に良かったと思いました（5/30の21時と5/31の21時）。優勝おめでとうございます！<br>
+              でぱみぃ - なんかたのしいことないかな<br>
+              衝撃作。曲名だけみるとかわいい系ゆるふわポップなのかなあと思いましたが、180°真逆な作風で衝撃を受けました。作風に対してメロディがキャッチーなのも良いですね。このBMSを含めて、この世は楽しいことでいっぱいですね。<br>
+              Edvard.S(mov:tun) - SHINE<br>
+              アツい曲ですね…こういうどこか古いけどそれが良さになっている曲大好きです。譜面がシンメトリーになるところ好きです。<br>
+              NoE(mov:koboshinn) - 間隙を縫う<br>
+              音が凄い！！！音が凄くて音が凄いしか言えてないんですけど、もうとにかく音が凄い…強い音は自分にはない要素なので、それだけで圧倒されてしまいます。<br>
+              定空間 - 青空の旅、笛と共に<br>
+              綺麗というかなんというか、曲としての完成度が超高い。氏の曲は以前から存じ上げていたのですが、それとはまた違う曲調で驚きました。いろんな曲作れてすごいなあ（語彙力）。譜面も曲に合っている難易度でした。譜面が曲に合っていてすごいなあ（語彙力）。<br>
+              F.Wynnd - Starline Express<br>
+              メロディアスなリードが良いですね～音が若干チープなんですけど、それが逆に活かされた曲だと思います。<br>
+              晴空ヒナタ - ちっぴんばとる！<br>
+              すごい作品だ…ピコピコ明るい曲調の裏でけっこうえげつないこと（まおうにOverkillしたりされたり）しているの好きです。ラスサビ終わりからすぐ始まるアウトロ好きです。<br>
+              にょろも - 指先忍者 the ultimate keystroke<br>
+              あた！あた！ほぉーあた！あたたたたたたたたたたたた！！！ほぅぉーあた！！！！！貴様、なかなかデキると見えるな。エンタメ性の強い作品好きなので最高にテンションがブチ上がりました。メロディラインもキャッチーで好きです。<br>
+              相生あおは(mov:二兎) - Shiftenery<br>
+              作曲が上手い！展開がモリモリで飽きませんでした。かっこよくも幻想的な曲調で、壮大さがにじみ出ていて好きです。終わり方もかなり刺さりました。好きだ～～！<br>
+              りょくちゃ - litea<br>
+              自分（の名前）をコンセプトにすることをとことん突き詰めている作品で好きです。そして曲も良いですね～HappyなHardcoreでTeatimeとしゃれこみましょう。<br>
+              白羽Project(mov:rokopon) - γ-Arietis<br>
+              曲に浮遊感があって好きです。自分でも言ってて浮遊感がよくわかってないんですけど、好きです。前回からだいぶレベルアップしてると思うので、この調子でどんどん強くなっていってほしいです。<br>
+              Trantech - Aleph(BMS Edit.)<br>
+              勢いが好きですね。こうズンズンと迫りくる感じがかっこよくて好きです。<br>
+              Namiel(mov:グーラン) - re:Crystallization<br>
+              いや～好きですね…曲がかっこよくて僕に刺さりました。次回作にどんなBMSが来るのかが非常に楽しみです。<br>
+              Min0rity(mov:Sugar) - KHAYAH<br>
+              え、音強い。曲がかっこいい。譜面は結構やんちゃでしたが、それも含めて納得させられるくらい力強い作品でした。<br>
+              Zombomb(mov:MOYAYON) - Leave Me<br>
+              Hardcore mixとかDubstepとか、音楽ジャンルの違いがあんまりよくわからないんですけど（すみません…）かっこよくて良いですね。ベースだけでなくメロディとかのウワモノも好みです。<br>
+              dandeless - almost!<br>
+              勢いが好きです。うおおおおドコドコドコドコ！！！メロディもかなり好みです。<br>
+              CCP - TURBO<br>
+              いや作曲うめ～！まずメロディがとてもキャッチーだしサビで明るくなる展開に心がアツアツでした。<br>
+              hard - ARC DiSCHARGeR<br>
+              絵の方で知っていたので、参加されることを知った時、めちゃくちゃ驚きました。そして曲を聴いてまた驚きました。なんじゃあの強い音は。曲調もかっこよくてかなり好きです。<br>
+              ほろろ(mov: TAIGA YANAO,Patroller Yamazaki ) - Carnelian<br>
+              アツく切ない王道Trance…胸がキュンキュンします。BGAもとっても凝っていて素晴らしいです。<br>
+              kas_0120(mov:かんてん) - RAKUGAKI NOTE<br>
+              作曲上手すぎ！？！？！？楽しそうな雰囲気が余すことなく楽曲から伝わってきてとても良い…譜面も丁度良い難しさでとても良いです。<br>
+              Jeipouju - Shadowland Cityscape<br>
+              おとぎ話の中に迷ってしまったかのような浮遊感が良いですね…オルゴールの綺麗な音が映えていてかなり好みです。<br>
+              Block - Water rain<br>
+              音が良いトランスだ…ミックス方面を見直してみると化ける作品だと思います。綺麗で切ない曲調が心をくすぐりますね。<br>
+              yoho - マキナ・ユーカリプタス<br>
+              幻想的かつ勢いのある作品で、とても個性が出ていたと思います。明るくて楽しそうな雰囲気がバッチグー（死語）です。<br>
+              432pro - turn it back<br>
+              こういうゆったりとした曲調のもの、好きですよ～～本当に。夕陽が沈むように体が溶けるような癒しを感じました。<br>
+              Mr.Faine(mov:romusann) - 夢と現<br>
+              いや…クオリティが高すぎる。ピアノの処理ってBMSだとめちゃくちゃ大変なんですけど、そのあたりが非常に丁寧で、打鍵感が強く楽しめました。Average優勝おめでとうございます！<br>
+              MoVIIkA(mov:Vimii) - Hayate<br>
+              クールな和風Hardcoreでかっこよかったです。クールさの中に静かなアツさがあるというかなんというか、そんな感じでとても好きです。<br>
+              tami(mov:tami) - devote<br>
+              オシャレだ！！！！！！！！！！個人的無名戦17オシャレ枠番長として君臨しています。夜の散歩とかで聴きたいですね。<br>
+              N-Driver - ヤバヤバ<br>
+              ヤバ。曲が強くかっこよかったのもあるんですけど、ヤバヤバな声ネタがとても頭に残っています。ヤバーヤバーヤバヤバーヤバーヤバヤバヤバ。高速ヤバヤバ地帯が好きです。<br>
+            </div>
+
+            <div class="question">Q. 今後の目標や抱負などをお聞かせください。</div>
+
+            <div class="answer">
+              前述の通り、優勝するつもりでの準優勝だったので、嬉しい反面非常に悔しいです。この悔しさをバネに、生きているうちにBMSイベントで優勝をするという目標が出来ました。素の作曲力だけでなく、音作りのスキルや編曲力、譜面作成能力などを、これからも一途にがむしゃらに頑張って磨いていきます。特に音作りに関しては、シンセ・生音問わず指摘されたので、これから勉強していきます。
+            </div>
+
+            <div class="question">Q. コメントや告知などご自由にお書きください。</div>
+
+            <div class="answer">
+              いくつか書きます。
+
+              ひとつめ<br>
+              無名戦の総合的な話をするDiscordサーバー、無名戦総合プラザというサーバーの管理人をしております（なんで？）。<br>
+              もともと無名戦17サーバーだったのですが、なんかいろいろあって総合的なサーバーとなりました。<br>
+              過去の無名戦に参加した方々、今回の無名戦に参加した方々、今後の無名戦に参加しようと予定している方々ならどなたでも参加可能です（なんなら無名戦に参加してない方も参加可能です）。よければ参加していってください！
+              <a href="https://discord.com/invite/R8SMVpM">https://discord.com/invite/R8SMVpM</a><br>
+              <br>
+              ふたつめ<br>
+              イラストや映像、楽曲まで作れてしまい、その腕は「ゆるい映像コンテスト」で準優勝を飾ったり、前回の無名戦で優勝したりするほどの超強力マルチクリエイター兼無名戦17超有能主催、tolzさんのBMSを宣伝させていただきます。<br>
+              Telescope(第16回自称無名BMS作家が物申す！)→<a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=46&event=126">http://manbow.nothing.sh/event/event.cgi?action=More_def&num=46&event=126</a><br>
+              Lily(BOFXV - THE BMS OF FIGHTERS EXTREME VIOLENCE -)→<a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&num=46&event=126">http://manbow.nothing.sh/event/event.cgi?action=More_def&num=339&event=127</a><br>
+              またBMS作ってくれ～！！！頼む！！！tolzさんの新作BMSもLilyのBGAもいつまでも待ってます！！！！！<br>
+              <br>
+              最後に<br>
+              今回の無名戦17で関わった主な方々に向けて、謝辞を述べたいと思います。<br>
+              まずは無名戦17の主催のtolzさん、あなたの運営によりこのイベントは無事に終了しました。ありがとうございます。<br>
+              次に、BMS制作において楽曲や譜面、その他の部分について以前からアドバイスをして頂いた69 de 74さんや空読無 白眼さん、NASAさんやKAHさんをはじめとする大勢の皆さん（大勢いるので、一人ひとり名前を挙げられなくてすみません）、今回のみならず、今後も参考になりそうなアドバイスをたくさん頂きました。ありがとうございます。<br>
+              次に、プレイやインプレッションをしていただいた皆さん、プレイをしたという報告を聞いたり、IRでプレイ人数・回数が増えたりするたびに嬉しさがこみ上げ、会場で今後に活かせそうなインプレッションを確認した時は、今まで見えてこなかった改善点などが見つかり、感動しました。ありがとうございます。<br>
+              次に、僕のI know率を気にしてやまなかった皆さん、僕の最終的なI know率はだいたい54%でした。な～にが「<a href="https://twitter.com/search?q=%23Iknow9%E5%89%B2%E7%9B%AE%E6%8C%87%E3%81%9D%E3%81%86%E3%81%9CK4Y5">#Iknow9割目指そうぜK4Y5</a>」じゃ、結局6割も行かんかったわ（安堵）。なんだかんだ僕のことを気にかけてくださって、嬉しかったです。ありがとうございます。<br>
+              次に、今回BGAを制作していただいたFJA映像プロダクションさん、僕の楽曲提出が予定よりもかなり遅れてしまい、結構厳しいスケジュールだったと思うのですが、特に何も指定をしていないのにも関わらず、スピーディな作業速度で非常に素晴らしい映像を作っていただいて、完成した映像が送られてきた時は画面に釘付けでした。ありがとうございます。<br>
+              そして、僕の最高の友達でありDTMのいろはを教えてくれた師匠でもある（これを本人に言うとよく否定されるけど、僕は本当にそう思っています）、kooridoriさん、僕の成長に心から喜んでくれたり、楽曲制作をはじめ、良いリファレンスや譜面制作など、様々なことを教えていただいたりして、昔から本当に感謝しております。何度この言葉を伝えたかはもうわかりませんが、この場所を借りて改めて感謝の意を伝えます。ありがとうございます。<br>
+              <br>
+              僕のコメントは以上になります。ここまで本当に長くなってしまいましたが、読んでいただいた方々は本当にお疲れさまでした。ありがとうございました！完<br>
+            </div>
+            
+          </div>
+          <div class="interview">
+            <h1 class="inttitle">Weaponhuman</h1>
+            <h2 class="intartist">paraneumann</h2>
+            <div class="question">Q. 入賞おめでとうございます！改めてこの順位に対するお気持ちをお聞かせください。</div>
+
+            <div class="answer">
+              ありがとうございます！<br>
+              これもプレイ、インプレしてくださった皆様のおかげです。<br>
+              評価期間開始前、いくつかの作品をプレイした段階では、「いい作品が沢山あるので正直順位が振るわなくても構わない」などとナメたことを思っていました。<br>
+              しかし、いざ良い順位を維持している状態が続くと、入賞したいという欲が湧き上がってきてしまうものなんですね。これもいきもののサガか・・・<br>
+              なので、この結果はとても嬉しいです！<br>
+              <br>
+              あと、2つのビート(Total順位とAve順位)が噛み合ってた。正直気持ち良いと思った…<br>
+            </div>
+
+            <div class="question">Q. 今回作成されたBMSについて、力を入れた点やアピールポイント等があれば是非とも紹介してください。</div>
+
+            <div class="answer">
+              インダストリアルなSFXと、クドいくらい繰り返されるシンセリフです。ビルドアップの盛り上がりも個人的に気に入っているポイントですね。<br>
+              BGAと合わせて構成される世界観にも注目していただけるとうれしいです。<br>
+            </div>
+
+            <div class="question">Q. 今回の作品を制作する際にこんなところを意識した！苦労した……等制作逸話をお聞かせください。</div>
+
+            <div class="answer">
+              実は当初、無名戦には「Ganja Bad Trip Cool」というアホみたいなタイトルのRagga Jungleで挑む予定でした。嘘みたいですが本当の話です。<br>
+              最終的にどうしようもない出来の曲に仕上がってしまったのであえなくボツとなりました。Ragga Jungleはとても難しいですね。<br>
+              優勝曲をプレイする度、ボツにしておいて本当に良かったなと思います。<br>
+              <br>
+              実際の参加作品、Weaponhumanについてですが、メロディがほぼ繰り返しで構成されているので、譜面にメリハリをつけるのに四苦八苦しました。楽曲の作り直しを考えるくらいには悩んだところです。<br>
+              また、久々に映像を作ったら構想段階で張り切りすぎてしまい、タスクが爆裂的に膨れ上がって滅茶苦茶しんどかったです。<br>
+              技術、センス的な壁にも散々ぶち当たりました。もうフル3DCGでキャラクターを動かすのは懲り懲りだぁ～。<br>
+            </div>
+
+            <div class="question">Q. 今回の無名戦でお気に入りのBMSを教えてください。</div>
+
+            <div class="answer">
+              Trooping the ColourとCrossSectionOfMindは曲、BGA、譜面の3要素がバッチリ噛み合っていて、音ゲー作品として完成度が高かったと思います。<br>
+              そのほかShadowland Cityscape,夢と現,devote,litea,MIMAKARU,RAKUGAKI NOTE,蒼く爽昧な夢のようで,などなど…<br>
+              全ては上げきれませんが、他にも沢山の良作と巡り会えたイベントでした。<br>
+              <br>
+              入賞曲はもちろんどれも好きですがSecret Orderはその中でも特にお気に入りですね。<br>
+
+            </div>
+
+            <div class="question">Q. 今後の目標や抱負などをお聞かせください。</div>
+
+            <div class="answer">
+              全自炊BMS作り機として名を馳せられるよう頑張っていきたいので、今後もたくさんのイベントに出たいと思っています。<br>
+              無名戦がピークだった、とはならないようにしたいですね！<br>
+            </div>
+
+            <div class="question">Q. コメントや告知などご自由にお書きください。</div>
+
+            <div class="answer">
+              プレイ、インプレしてくださった皆さん、ありがとうございました！<br>
+              直近では8月開催予定のBMSイベント、「WORLD WAR -BATTLE ROYALE IN ALL REGIONS-」にも参加予定ですので、<br>
+              そちらの作品も遊んでいただければ幸いです。<br>
+            </div>
+            
+          </div>
+          <div class="interview">
+            <h1 class="inttitle">Secret Order</h1>
+            <h2 class="intartist">utzbo</h2>
+            <div class="question">Q. 入賞おめでとうございます！改めてこの順位に対するお気持ちをお聞かせください。</div>
+
+            <div class="answer">
+              ありがとうございます！<br>
+              あと一歩で3位に届かなかったのが悔しいところではありますが、69作品中の4位という順位は大変光栄なことです。<br>
+              プレイ、インプレをしてくださった皆様、本当にありがとうございました。<br>
+            </div>
+
+            <div class="question">Q. 今回作成されたBMSについて、力を入れた点やアピールポイント等があれば是非とも紹介してください。</div>
+
+            <div class="answer">
+              力を入れた点やアピールポイント等があれば是非とも紹介してください。<br>
+              メロディには力を入れましたね。<br>
+              曲のコンセプトが「昔のスパイ映画」なので「おしゃれでジャジーでスタイリッシュ」な感じを醸し出すために試行錯誤しました。<br>
+              ジャズっぽさを出すためにスケールをわざと外したりいろいろしてます。<br>
+              特にブレイクからのメロディは今まで僕が作ってきた楽曲の中でも一番出来が良いので、是非メロディに注目していただければと思います。<br>
+            </div>
+
+            <div class="question">Q. 今回の作品を制作する際にこんなところを意識した！苦労した……等制作逸話をお聞かせください。</div>
+
+            <div class="answer">
+              初めてのBMS、初めての音切り、初めてのハイテックと初めてづくしで苦労の連続の無名戦でした。<br>
+              ヘイガイズを見たりサンプルパックを買い漁ったりインターネットの海を探索したり先輩に聞いたり…と色々行いましたね。<br>
+              中でも音切りが一番大変でした。サイドチェインを沢山使うと、死にます。<br>
+              また、高難度の譜面とDP譜面は地力的に制作が困難であったため、Pelc.さんとDoggieさんそれぞれにSPH,A譜面とDPN～A,SPI譜面を制作していただきました。<br>
+              僕一人では間違いなくこの順位にはなれなかったので、改めてお二人に感謝の意を申し上げます。 <br>
+            </div>
+
+
+            <div class="question">Q. 今回の無名戦でお気に入りのBMSを教えてください。</div>
+
+            <div class="answer">
+              一番気に入っているのは<br>
+              青空の旅、笛と共に<br>
+              です。ケルト音楽は、いいぞ。<br>
+              <br>
+              他にも沢山あるんですが、その中でも個人的に気に入っているのは<br>
+              Funky Anthem "F"<br>
+              なんかたのしいことないかな<br>
+              Shiftenery<br>
+              Thrill Trigger<br>
+              ARC DiSCHARGeR<br>
+              RAKUGAKI NOTE<br>
+              Shadowland Cityscape<br>
+              夢と現<br>
+              ヤバヤバ<br>
+              1stCode:<br>
+              ですね。<br>
+              メロディがいいのとノリがいいのはすぐに好きになってしまいます。<br>
+            </div>
+
+            <div class="question">Q. 今後の目標や抱負などをお聞かせください。</div>
+
+            <div class="answer">
+              BMSでは何らかのイベントで無名戦出禁ラインを越えること、BMS以外では何かしらの公募で採用されることが当面の目標です。<br>
+              頑張るぞ。<br>
+            </div>
+
+            <div class="question">Q. コメントや告知などご自由にお書きください。</div>
+
+            <div class="answer">
+              今後もBMS制作は続けていきますので、またどこかで僕の作品を見かけたら是非遊んでください！(良かったらインプレも)<br>
+              今年開催されるBMSイベントではWORLD WARとBOFXVIに出場予定です。対戦よろしくお願いします。<br>
+              あとツイッターとSound Cloudのアカウントも置いておきます。<br>
+              Twitter→<a href="https://twitter.com/utzzbo">twitter.com/utzzbo</a><br>
+              Sound Cloud→<a href="https://soundcloud.com/utzbo">soundcloud.com/utzbo</a><br>
+              よろしければフォローをお願いします！<br>
+              今後EPやアルバム等を出す予定もありますのでチェックしていただけるととても嬉しいです。<br>
+              他にもコンピや合作、リミックス等、お気軽にお声がけください！<br>
+            </div>
+            
+          </div>
+          <div class="interview">
+            <h1 class="inttitle">Vulgar</h1>
+            <h2 class="intartist">satie</h2>
+            <div class="question">Q. 入賞おめでとうございます！改めてこの順位に対するお気持ちをお聞かせください。</div>
+
+            <div class="answer">
+              最後の最後まで5~9位がものすごい接戦で自分は追われる側だったので、入賞が確定した瞬間は喜びよりも安堵の気持ちの方が上回っていました。<br>
+              G2R2018・BOFXVと参加してきて三度目の正直だったので素直に嬉しいのですが、去年の優勝者(現主催)であるtolzさんがサークルの同期だったので同じサークルから2年連続優勝を叶えられなかったのは少し悔しいです…。<br>
+            </div>
+
+            <div class="question">Q. 今回作成されたBMSについて、力を入れた点やアピールポイント等があれば是非とも紹介してください。</div>
+
+            <div class="answer">
+              できるだけキャッチーなメロディになるよう、また低BPMで同じリズムを保ちつつも飽きさせない展開になるよう頑張りました。<br>
+              ベースは音にあまり自信が持てなかったので、ドライでキレのある音になるようミックスを工夫しました。<br>
+              結果的に少し音が薄くチープになってしまったのは反省点だと思います。<br>
+              BGAに関しては3Dモーショングラフィックスと音同期、カメラワークを頑張りました。<br>
+              サビあたりでビームのような何かを撃っているのですが全然言及されなかったですね…。<br>
+            </div>
+
+            <div class="question">Q. 今回の作品を制作する際にこんなところを意識した！苦労した……等制作逸話をお聞かせください。</div>
+
+            <div class="answer">
+              自分はテーマなどを設定して曲を作るのが苦手で、映像歴も浅いのでどうやって曲をBGAに落とし込むかにとても苦労しました。<br>
+              正直なところ曲と映像がチグハグになってしまって実力不足を痛感させられましたが、<br>
+              過去のBMSイベントの色々な作品を参考にしてできるだけBGAらしい表現を目指しました。<br>
+              またリズムをハネさせるかどうかもずっと悩んでいました。今でもどうするのが正解だったのかは分からないです…。<br>
+            </div>
+
+            <div class="question">Q. 今回の無名戦でお気に入りのBMSを教えてください。</div>
+
+            <div class="answer">
+              入賞作品以外で一部挙げさせていただきます。<br>
+              音作りなどの面では「間隙を縫う / NoE」「KHAYAH / Min0rity」が最高でした。<br>
+              BGAは「Hayate / MoVIIkA(mov:Vimii)」「opia / rN」「鏡花水月の宵 / /指紋(mov:もがみ)」が音楽を引き立てていてとても良かったです。<br>
+              個人的に刺さったのは「夢と現 / Mr.Faine」「Shadowland Cityscape / Jeipouju」「from Hauser’s brain / mkpn」です。<br>
+            </div>
+
+            <div class="question">Q. 今後の目標や抱負などをお聞かせください。</div>
+
+            <div class="answer">
+              商業音ゲー公募に受かること、映像技術を上げてより良い映像やアニメーションを作ることが今の目標です。<br>
+              今回かなり精神をすり減らしてしまったのでしばらくは分からないですがBMSでの活動も続けていきたいと思っています。<br>
+            </div>
+
+            <div class="question">Q. コメントや告知などご自由にお書きください。</div>
+
+            <div class="answer">
+              Web：<a href="https://c4nolab.web.fc2.com/">c4nolab.web.fc2.com/</a><br>
+              Twitter：<a href="https://twitter.com/c4_child35">twitter.com/C4_child35</a><br>
+              高難易度譜面を作成してくださったC4さんをよろしくお願いします。<br>
+
+              ・<a href="http://adictivnier.unisphere.tv/">adictivnier.unisphere.tv</a><br>
+              Unisphere様の非公式NieRシリーズアレンジアルバムに僭越ながら参加させていただいたので是非全曲聴いてみてください。<br>
+              (少なくとも自分の以外は)ドヤバい曲しかないです。<br>
+              ・<a href="https://soundcloud.com/sa-tie">soundcloud.com/sa-tie</a><br>
+              ピアノ成分多めの曲をよく作っているので良ければ音雲も覗いてみてください。<br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="souhyou">
+        <div class="container">
+          <div class="title">総評</div>
+            <div class="txt">
+              製作者の皆様、プレイヤーの皆様、お疲れ様でした！（いつもの）<br>
+              「第17回自称無名BMS作家が物申す！」主催のtolzです。<br>
+              <br>
+              今年の無名戦は69作品と、非常に多くの作品登録をいただきました。インプレ数でも100を超える作品が多数現れるなど、近年の無名戦では稀に見るレベルの盛り上がりとなったのではないでしょうか。<br>
+              来年以降もこの盛況が続いてくれれば良いなと思っています。<br>
+              <br>
+              作品傾向としては、優勝作品の「Gimme All The Cocaine」を始め、ベースミュージック系の作品が比較的多い印象でした。<br>
+              このような系統の楽曲は音作りに重きが置かれるため作るのが難しいイメージだったのですが、どれも高いクオリティで思わず圧倒されてしまいました。<br>
+              他にも、王道のトランスやハードコアから、ラグタイム・ファンコット・民族系など音ゲーではあまり見かけないジャンルの楽曲まで見られ、非常に個性豊かな顔ぶれだったと思います。<br>
+              <br>
+              今回の無名戦で自分が個人的に好きだったBMS作品は、<br>
+              「Secret Order / utzbo」<br>
+              「Vulgar / satie」<br>
+              「夢と現 / Mr.Faine(movie:romusann)」<br>
+              「RAKUGAKI NOTE / kas_0120(movie:かんてん)」<br>
+              「Hayate / MoVIIkA(movie:Vimii)」<br>
+              「Opposit_Position / 287 a.k.a. EXAM.S feat.東北きりたん」<br>
+              です。どれも自分好みのキャッチーなメロディーが際立つ、素晴らしい作品でした。<br>
+              <br>
+              最後に、会場を貸してくださったAOiRO_manbowさん、A-1との共同主催で何かとサポートしていただいたSOMONさん、そして参加していただいたBMS作家の方々、プレイ・インプレしてくださったプレイヤーの方々に心から感謝致します。<br>
+              <br>
+              第17回自称無名BMS作家が物申す！　主催　tolz<br>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -185,3 +185,45 @@ footer{
 a.disabled{
   pointer-events: none;
 }
+
+#myTable .tablesorter-header {
+  cursor: pointer;
+  outline: none;
+}
+#myTable .tablesorter-header-inner::after { 
+  content: '▼';
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.tablesorter{
+  margin-bottom: 40px;
+}
+table,th,td {
+  border: 1px solid #bbb;
+  text-align: center;
+}
+
+
+th {
+  font-size: 15px;
+}
+
+.rank {
+  font-weight: bold;
+}
+
+.question{
+  padding-bottom:5px;
+  margin-bottom:10px;
+  border-bottom: solid 1px #bbb;
+  font-weight: bold;
+}
+
+.intartist{
+  padding-bottom:20px;
+}
+
+.answer{
+  margin-bottom:40px;
+}
